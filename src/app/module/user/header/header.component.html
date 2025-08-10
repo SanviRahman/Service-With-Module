@@ -1,0 +1,9 @@
+<div class="app">
+    <h1>Header Child Component:</h1>
+    <h4 style="margin-left: 30px;">Name     -   Age        -       ID</h4>
+    <ul>
+        <li *ngFor="let user of userdata">
+            {{user.name}} - {{ user.age}} - {{user.id}}
+        </li>
+    </ul>
+</div>
